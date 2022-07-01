@@ -1,0 +1,463 @@
+/* navbar */
+.navbar {
+  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); */
+}
+
+/* .nav-link {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+} */
+
+/* jumbotron */
+.jumbotron {
+  /* background: linear-gradient(to right, #4c1f9b 0%, #5272d9 35%, #54afde 100%); */
+  background: url(img/hero-pattern-bg.png);
+  background-size: cover;
+  padding-top: 15rem;
+  height: 660px;
+  color: white;
+  background-color: #54afde;
+  /* position: relative; */
+  /* z-index: 2; */
+}
+
+.jumbotron h1 {
+  font-family: "Akaya Telivigala", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+
+.jumbotron h1 span {
+  color: #e1ff00;
+}
+
+.jumbotron .icons {
+  font-size: 2rem;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron a {
+  /* color: #4c26b5; */
+  color: #e1ff00;
+}
+
+.jumbotron p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+@import url();
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+} */
+
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: ;
+} */
+
+/* .wrapper {
+  display: flex;
+}
+
+.wrapper .teks-diam {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.wrapper .teks-berjalan {
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+.teks-berjalan li {
+  list-style: none;
+  color: #4c26b5;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+.teks-berjalan li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.teks-berjalan li span::after {
+  position: absolute;
+  content: "";
+  margin: 5px 0;
+  line-height: 90px;
+  animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+  40%, 60%{
+
+  }
+} */
+
+.jumbotron .tombol {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.jumbotron .tombol:hover {
+  background-color: #e1ff00;
+  color: white;
+}
+
+.jumbotron .tombol {
+  padding: 15px 30px;
+  background-color: white;
+  color: #54afde;
+  border-radius: 40px;
+}
+
+.jumbotron .gambar1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.jumbotron .gambar2 {
+  position: absolute;
+  right: 10%;
+}
+
+.jumbotron .gambar3 {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+/* .jumbotron .gambars {
+  position: relative;
+  margin-top: 40px;
+} */
+
+section {
+  padding-top: 5rem;
+}
+
+#handbook {
+  margin-top: 20px;
+}
+
+#handbook h3 {
+  font-family: "viga", sans-serif;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+#handbook hr {
+  width: 150px;
+  height: 4px;
+  background-color: #54afde;
+  /* margin: 10px auto; */
+  border-radius: 5px;
+  padding: 4px 0;
+}
+
+#handbook p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+#handbook img {
+  margin-top: 50px;
+  border: 4px solid #a0d7f2;
+}
+
+#handbook .tombol {
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  /* background-color:  #54afde; */
+  background: linear-gradient(to right, #54afde, #a0d7f2);
+  color: white;
+}
+
+#projects {
+  margin-top: 20px;
+}
+
+#projects h3 {
+  font-family: "viga", sans-serif;
+  margin-top: 50px;
+}
+
+#projects hr {
+  width: 150px;
+  height: 4px;
+  background-color: #54afde;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 4px 0;
+}
+
+#projects img {
+  border-radius: 50px;
+  cursor: pointer;
+}
+#projects .card {
+  margin-top: 50px;
+  border-radius: 50px;
+  border: none;
+}
+
+#projects .tombol {
+  background: linear-gradient(to right, #54afde, #a0d7f2);
+  color: white;
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+#illustrasi h2 {
+  font-family: "viga", sans-serif;
+  margin-top: 50px;
+}
+
+#illustrasi hr {
+  width: 150px;
+  height: 4px;
+  background-color: #54afde;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 4px 0;
+}
+
+#illustrasi .card img {
+  padding: 20px;
+}
+
+#illustrasi .card {
+  background: url(img/paterns.png);
+  background-color: #f7c82c;
+  color: #472a6e;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  margin-top: 50px;
+}
+
+#illustrasi .card h3 {
+  font-family: "Viga", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#illustrasi .card:hover {
+  background-color: #472a6e;
+  color: #f7c82c;
+}
+
+/* Skills */
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+/* .container {
+  width: 100%; 
+  background-color: #ddd; 
+} */
+
+#skills {
+  /* height: 300px; */
+  margin-top: 20px;
+}
+
+#skills h3 {
+  font-family: "viga", sans-serif;
+  margin-top: 50px;
+}
+
+#skills hr {
+  width: 150px;
+  height: 4px;
+  background-color: #54afde;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 4px 0;
+}
+
+#skills .wrapper {
+  margin-top: 30px;
+}
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+} /* Green */
+.css {
+  width: 80%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 65%;
+  background-color: #f44336;
+} /* Red */
+.php {
+  width: 60%;
+  background-color: #29ea80;
+} /* Dark Grey */
+.bootstrap {
+  width: 80%;
+  background-color: #fb36c0;
+} /* Dark Grey */
+.taildwind {
+  width: 50%;
+  background-color: #ffcc00;
+} /* Dark Grey */
+.figma {
+  width: 70%;
+  background-color: #ed4284;
+} /* Dark Grey */
+.photoshop {
+  width: 100%;
+  background-color: #ed4284;
+} /* Dark Grey */
+
+/* Contact */
+#contact h3 {
+  font-family: "viga", sans-serif;
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+#contact hr {
+  width: 150px;
+  height: 4px;
+  background-color: #54afde;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 4px 0;
+}
+
+#contact .tombol {
+  background: linear-gradient(to right, #54afde, #a0d7f2);
+  color: white;
+  border-radius: 40px;
+  padding: 10px 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: #54afde;
+  color: white;
+}
+
+footer p {
+  font-family: "viga", sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+footer span {
+  font-family: "Akaya Telivigala", sans-serif;
+  color: #e1ff00;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #e1ff00;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #54afde;
+  }
+
+  .jumbotron {
+    height: 100vh;
+  }
+
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+
+  .jumbotron .icons {
+    font-size: 2em;
+  }
+  .jumbotron .tombol {
+    margin-top: 30px;
+  }
+
+  .jumbotron .gambar3 {
+    display: none;
+  }
+
+  .jumbotron .gambar2 {
+    position: absolute;
+    top: 70%;
+    width: 10rem;
+  }
+
+  #handbook {
+    text-align: center;
+  }
+
+  #handbook hr {
+    width: 150px;
+    height: 4px;
+    background-color: #54afde;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 4px 0;
+  }
+
+  .jumbotron .gambars {
+    margin-top: 365px;
+    /* width: 1300px; */
+  }
+
+  .navbar img {
+    width: 100%;
+  }
+
+  /* illustrasi */
+  #illustrasi .card h3 {
+    font-family: "Viga", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  /* Contact */
+  #contact img {
+    display: none;
+  }
+}
